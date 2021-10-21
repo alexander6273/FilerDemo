@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
+        
+        //opgave 1
 
         /*File file = new File("data/tekst.txt");
         Scanner sc = new Scanner(file);
@@ -25,6 +27,8 @@ public class Main {
             System.out.println(result);
         }*/
 
+        
+        //opgave 2
 
         File file = new File("Data/DMI.txt");
         Scanner sc = new Scanner(file);
@@ -47,6 +51,8 @@ public class Main {
         result = (int) Math.round(result);
         System.out.println("Average: " + result);
 
+        
+        //opgave 3
 
         /*int number = ((int) (Math.random() * 5) + 1);
         int guess = 1;
